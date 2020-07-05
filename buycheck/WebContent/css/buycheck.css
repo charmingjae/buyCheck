@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+html body{
+	overflow:hidden;
+}
+
+#search-cont{
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+	width:70%;
+	height:100%;
+
+}
+
+#juminSearch{
+	border-color: #006ecb;
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translateX(-50%);
+	height:7%;
+	width:60%;
+	border-radius:50px;
+	padding-left:2%;
+	font-size:20px;
+}
+
+#juminSearch::placeholder{
+	color:gray;
+}
+
+#juminSearch:focus{
+	outline:none;
+}
+
+#yoil{
+	position:relative;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	color:#007BFF;
+	top:35%;
+	font-size:15px
+}
+
+#checkYoilValid{
+	position:relative;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	color:#007BFF;
+	top:45%;
+	font-size:15px
+}
+
+#checkYoilInValid{
+	position:relative;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	color:red;
+	top:45%;
+	font-size:15px
+}
+
+#DateForNotBuy{
+	position:relative;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	color:green;
+	top:45%;
+	font-size:15px
+}
